@@ -44,7 +44,6 @@ DB_PASSWORD=ваш_пароль
 DB_NAME=имя_бд
 DB_HOST=localhost
 DB_PORT=5432
-
+```
 
 Запуск происходит через Bot.py
-```
