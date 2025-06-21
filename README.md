@@ -21,7 +21,8 @@ Telegram-бот для демонстрации работы с криптова
 - Python 3.9.6
 - PostgreSQL 15+
 - PgAdmin 4 (рекомендуется)
-- установите все библиотеки из requirements.txt
+- установите все библиотеки из requirements.txt:
+  `pip install -r requirements.txt`
 
 Создайде базу данных и таблицу в ней:
 ```
