@@ -1,0 +1,6 @@
+aiogram==3.6.0
+pydantic-settings==2.9.1
+asyncpg==0.30.0
+web3==6.15.1
+bip-utils==2.9.3
+cryptography==45.0.4
