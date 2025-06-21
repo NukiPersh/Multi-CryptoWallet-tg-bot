@@ -24,26 +24,24 @@ Telegram-бот для демонстрации работы с криптова
 - установите все библиотеки из requirements.txt
 
 Создайде базу данных и таблицу в ней:
-CREATE TABLE IF NOT EXISTS users (
+`CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
     id_telegram BIGINT UNIQUE NOT NULL,
     privacykey TEXT,
     address TEXT
-);
+);`
 
 Заполните .env:
-# Telegram
-BOT_TOKEN=ваш_токен_бота
 
-# Security
+`BOT_TOKEN=ваш_токен_бота
+
 SALT=ваша_соль_для_шифрования
 
-# Database
 DB_USER=ваш_пользователь
 DB_PASSWORD=ваш_пароль
 DB_NAME=имя_бд
 DB_HOST=localhost
-DB_PORT=5432
+DB_PORT=5432`
 
 
 Запуск происходит через Bot.py
